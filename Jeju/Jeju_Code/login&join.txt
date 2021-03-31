@@ -1,0 +1,73 @@
+login
+<? if( ! defined('BASEPATH') ) exit ('No direct script access allowed');?>
+<br>
+<h3 align="center">·Î±×ÀÎ</h3>
+<br>
+<hr>
+<br>
+<br>
+<form name="log-in" action="http://qkrgustn.com/jeju/log_add_data" method="post" align="center">
+	<fieldset>
+		ID&nbsp:&nbsp<input name="id" id="id"size="30" pattern=^[0-9a-zA-Z]*$ required placeholder="ÃÖ¼Ò 6ÀÚ ÀÌ»ó ÀÔ·ÂÇØ ÁÖ¼¼¿ä."><br>
+		PW:<input type="text" name="pw" id="pw" size="30" pattern=^[0-9a-zA-Z]*[-_\.~!@]*$ required placeholder="ÃÖ¼Ò 6ÀÚ ÀÌ»ó ÀÔ·ÂÇØ ÁÖ¼¼¿ä."><br/>
+		<br>
+		<button type="submit" class="btn orange_back" data-toggle="modal" data-target="#exampleModal">
+			·Î±×ÀÎ
+		</button>
+		<button type="button" class="btn green" onclick="menu('join');">
+			È¸¿ø °¡ÀÔ
+		</button>		
+	</fieldset>
+</form>
+<br>
+<br>
+
+join
+<? if( ! defined('BASEPATH') ) exit ('No direct script access allowed');?>
+<br>
+<h3 align="center">È¸¿ø°¡ÀÔ</h3>
+<br>
+<hr>
+<br>
+<br>
+<form name="sign-up" action="http://qkrgustn.com/jeju/join_add_data" method="post" align="center" color="FF6600">
+	<fieldset>
+		&nbsp&nbsp&nbspÀÌ¸§: 
+		<input type="text" name="name" id="name" size="30" pattern=^[°¡-ÆR]* minlength=2 maxlength=5 required placeholder="¿¹½Ã)È«±æµ¿"><br/>
+		&nbsp&nbsp&nbsp&nbsp&nbspID&nbsp:&nbsp
+		<input type="text" name="id" id="id"size="30" pattern=^[0-9a-zA-Z]*$ required placeholder="ÃÖ¼Ò 6ÀÚ ÀÌ»ó ÀÔ·ÂÇØ ÁÖ¼¼¿ä."><br>
+		<h6>ID ÀÔ·Â½Ã <b class="orange">ÇÏ´ÜÀÇ ID-Check</b>À» ¸ÕÀú ÇØÁÖ¼¼¿ä.</h6>
+		&nbsp&nbsp&nbsp&nbsp&nbspPW:
+		<input type="text" name="pw" id="pw" size="30" pattern=^[0-9a-zA-Z]*[-_\.~!@]*$ required placeholder="ÃÖ¼Ò 6ÀÚ ÀÌ»ó ÀÔ·ÂÇØ ÁÖ¼¼¿ä."><br/>
+		&nbsp&nbspTel : &nbsp
+		<input type="text" name="tel" size="30" id="tel" required placeholder="¿¹½Ã)010-0000-0000"><br>
+		&nbsp&nbsp&nbspÁÖ¼Ò :
+		<input type="text" name="address" size="30" id="address" required placeholder="¿¹½Ã)°æ±âµµ È­¼º½Ã º´Á¡ 1·Î 65"><br>
+		e-mail :
+		<input type="text" name="email" size="30" id="email" required placeholder="¿¹½Ã)gdhong@naver.com"><br>
+		&nbsp&nbsp&nbsp¼ºº°:
+		<select id="gender" name="gender" required>
+				<option value="³²">³²</option>
+				<option value="¿©">¿©</option>
+		</select>&nbsp&nbsp&nbsp
+		»ı³â¿ùÀÏ :
+		<input type="text" name="birthday" size="12" id="birthday" required placeholder="¿¹½Ã)0000.00.00">
+		<br>
+		<br>
+		<button type="submit" class="btn green" data-toggle="modal" data-target="#exampleModal">
+			È¸¿ø °¡ÀÔ
+		</button>
+	</fieldset>
+</form>
+
+<hr width="400px" height="50px" color="black">
+<form name="sign-up" action="http://qkrgustn.com/jeju/search_id" method="post" align="center">
+	<fieldset>
+		<h3>ID-Check</h3>
+		ID:
+		<input type="text" name="id">&nbsp&nbsp&nbsp
+		<button type="submit" class="btn blue" data-toggle="modal" data-target="#exampleModal">ID È®ÀÎ</button><br/>
+	<fieldset>
+<form>
+<br>
+<br>
