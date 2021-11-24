@@ -1,8 +1,8 @@
 # SummerVacation_3
-<h3> 3학년 하계 방학 학부 프로젝트</br>
-팀명: 컴픽스</br>
+### 3학년 하계 방학 학부 프로젝트
+<h4>팀명: 컴픽스</br>
 주제: 제주도 관광 소개 웹 페이지</br>
-사용 언어: PHP</br></h3>
+사용 언어: PHP</br></h4>
 팀장: Graphics LAB 18학번 허유림<br>
 팀원: ComVi LAB 18학번 김지윤<br>
 팀원: ComVi LAB 18학번 박현수<br>
