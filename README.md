@@ -19,6 +19,5 @@
  - HTML Validation, Server Validation 기능을 통해 Login 및 Sign Up 부분에서 안정성을 더함.
  - Session 기능을 넣어, 일정 시간이 지나면 자동으로 Logout 되도록 하였음
 
-#### 결과 : 
-<a href="http://qkrgustn.com/jeju/jeju_main">http://qkrgustn.com/jeju/jeju_main</a>
+#### 결과 : <a href="http://qkrgustn.com/jeju/jeju_main">http://qkrgustn.com/jeju/jeju_main</a>
 (현재는 서버 비용 유지 문제로 인해 서버가 닫혀, 볼 수 없음)
