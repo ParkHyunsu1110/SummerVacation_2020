@@ -1,4 +1,4 @@
-# SummerVacation_3
+# SummerVacation_2020
 ### 3학년 하계 방학 학부 프로젝트
 <h4>팀명: 컴픽스</br>
 주제: 제주도 관광 소개 웹 페이지</br>
